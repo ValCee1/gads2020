@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+  background: url("images/bgd.jpg");
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  margin-top: 20px;
+  height: 90%;
+  background: rgba(58, 58, 61, 0.505);
+  display: block;
+  margin: auto;
+  width: 45%;
+  padding: 30px;
+  height: 100%;
+  overflow: hidden;
+}
+main {
+  margin-top: 20px;
+  height: 92%;
+  background: rgba(0, 0, 0, 0.623);
+  color: white;
+  margin: auto;
+  width: 80%;
+  border: 1px solid white;
+  border-radius: 3%;
+  padding: 30px;
+  box-sizing: border-box;
+  resize: horizontal;
+  overflow: auto;
+  max-width: 100%;
+}
+.location {
+  height: 60px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding: 20, 20;
+  font-size: 40px;
+  text-align: center;
+}
+.weather-details {
+  height: 7vh;
+  font-weight: 400;
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.date {
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px, 20px;
+}
+.central {
+  margin: auto;
+}
+.details {
+  position: absolute;
+  display: flex;
+  font-weight: 200;
+  bottom: 50px;
+  padding: 30px, 10px;
+  width: 31%;
+  max-height: 50%;
+}
+.left-details {
+  width: 60%;
+}
+.right-details {
+  display: block;
+  width: 40%;
+  padding: 10px;
+  overflow: hidden;
+}
+.big-sup {
+  font-size: 30px;
+  font-weight: 50;
+}
+.temp-details {
+  display: flex;
+}
+.temp-number {
+  font-size: 120px;
+  font-weight: 50;
+}
+.temp-unit {
+  font-size: 50px;
+  font-weight: 20;
+}
+.tinyDetails {
+  display: flex;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.weather-img {
+  position: relative;
+  height: 10vh;
+}
+
+.humidity {
+  height: 3vh;
+  font-weight: 300;
+  margin-top: 5px;
+  padding: 5px, auto;
+  font-size: 15px;
+  text-align: center;
+}
+.find-location {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.search-result {
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  position: relative;
+}
+.temp-future {
+  padding: 10px 10px;
+  border-width: 3 px;
+  border-radius: 30%;
+  border: orangered;
+}
+
+.temp {
+  background: rgba(58, 53, 52, 0.9);
+  width: 100%;
+  height: 3vh;
+  border-radius: 20%;
+  padding: 5px, auto;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,maximum-scale=1"
+    />
+
+    <!-- Loading third party fonts -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Smash It Web App</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="main-section">
+        <div class="location" alt="Weather Location">Los Angeles City</div>
+        <div class="date">Sunday, Aug 28</div>
+        <div class="weather-details" alt="Clear Weather"></div>
+        <div class="humidity"></div>
+        <div class="find-location" title="Choose your event's date and time">
+          <input type="date" id="datetime" class="dateTimeQuery" />
+          <button class="date-check" type="submit">Check Date</button>
+        </div>
+        <div class="search-result"></div>
+      </section>
+      <section class="details">
+        <div class="left-details-1">
+          <div class="weather-img">
+            <img class="imgSrc" alt="weather-icon" />
+          </div>
+          <div class="temp-details">
+            <div class="temp-number">89</div>
+            <div class="temp-unit"><sup class="big-sup">o</sup> C</div>
+          </div>
+        </div>
+        <div class="left-details-2 hidden">
+          <div class="temp-future">
+            <div class="temp max-temp"></div>
+            <div class="temp min-temp"></div>
+            <div class="temp morn-temp"></div>
+            <div class="temp day-temp"></div>
+            <div class="temp night-temp"></div>
+            <div class="temp eve-temp"></div>
+          </div>
+        </div>
+        <div class="right-details">
+          <div class="description"></div>
+          <ul>
+            <li><div class="pressure tinyDetails"></div></li>
+            <li><div class="tinyDetails dewpoint"></div></li>
+            <li><div class="tinyDetails uvi"></div></li>
+            <li><div class="tinyDetails visibility"></div></li>
+            <li><div class="tinyDetails wind-speed"></div></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="app.js"></script>
+  <footer></footer>
+</html>
